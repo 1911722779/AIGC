@@ -1,0 +1,69 @@
+ *{
+    motion: 0;
+    padding: 0;
+ }
+ body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+ }
+ .todo{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;  /*与上边框的距离 */
+ }
+ .title{
+    font-size: 50px;
+    text-align: center;  /*文本居中 */
+    color: red;  /*设置字体颜色*/
+ }
+ .input-group{
+    display: flex;
+    font-size: 30px;
+
+ }
+ .label{
+    padding: 5px;
+ }
+ .content{
+    flex: 1;
+    font-size: 20px;
+ }
+ .btn{
+    width: 80px;
+    font-size: 30px;
+    /* padding: 10px;
+    box-sizing: border-box; */
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .list-item{
+    display: flex;
+    padding: 5px;
+
+    border-bottom: 2px solid #827d7d;
+    font-size: 26px;
+ }
+ .item-content{
+    flex: 1;
+    height: 20px;
+    margin-top: 8px;
+ }
+ .item-check{
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+ }
+ .close{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: none;
+ }
+ .list-item:hover .close{
+    display: block;
+ }
+ 
