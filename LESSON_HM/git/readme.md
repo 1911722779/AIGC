@@ -8,6 +8,7 @@
   - git add . 
   - git commit -m ""
   - git push origin main
+    git push -u origin main
 
   - git branch 分支
   - git checkout 切换分支
@@ -55,4 +56,18 @@
     - 后悔药
     - 分几次add,然后一次性commit
       多次git add 一次git commit
+  - git remote -v 
+    查看当前仓库的地址
+  - git remote add origin 仓库地址
+    添加仓库地址
+  - git remote set-url origin 仓库地址
+    重新设置仓库地址
+  - git log
+    代码提交记录
+    --oneline 一行显示
+  
+  - 暂存区 仓库
+    - 一次性多个文件多次修改，多次加入暂存区
+    - 一次commit -m 要规范 讲清楚任务
+    - 不要随便提交commit ,围绕开发需求
   
